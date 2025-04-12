@@ -1,0 +1,14 @@
+button {
+  background-color: aquamarine;
+  margin-top: 15px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: aqua;
+}
