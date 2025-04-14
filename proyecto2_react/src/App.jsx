@@ -35,6 +35,17 @@ const App = () => {
     setFilterList(listaFiltrada)
   }
 
+  return (
+    <div>
+      {/*filtro*/}
+      <form>
+        <input type="text" placeholder="Buscar"
+          onChange={filtrado} />
+      </form>
+      {/*lista*/}
+      <Users listaUsers={filterList.length > 0 ? filterList : userList} />
+    </div>
+  )
 }
 
 export default App
