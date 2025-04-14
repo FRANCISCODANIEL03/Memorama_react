@@ -18,6 +18,23 @@ const App = () => {
       setUserList([]);
     }
   }
+  useEffect(() => {
+    extractData()
+  }, []);
+
+  const filtrado = (evt) => {
+    const busqueda = evt.target.value;
+    if (busqueda == '') {
+      extractData()
+      return
+    }
+    //TODO: Refrescar la lista con el filtro
+    const listaFiltrada = userList.filter((usuario) => {
+      return usuario.name.toLowerCase().includes(busqueda)
+    })
+    setFilterList(listaFiltrada)
+  }
+
 }
 
 export default App
