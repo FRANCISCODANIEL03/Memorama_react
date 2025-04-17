@@ -18,3 +18,10 @@ footer{
   justify-content: space-between;
   border-radius: 20px;
 }
+
+span{
+  margin: 1%;
+  color: var(--color-font);
+  font-size: 250%;
+  text-align: center;
+}
