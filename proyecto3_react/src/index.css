@@ -10,3 +10,11 @@
 body{
   background: var(--color-body);
 }
+
+footer{
+  background: var(--color-header);
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+}
