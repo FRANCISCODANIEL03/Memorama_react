@@ -6,3 +6,7 @@
 *{
   font-family: var(--font);
 }
+
+body{
+  background: var(--color-body);
+}
