@@ -3,15 +3,15 @@
 @import "./styles/Projects.css";
 @import "./styles/Contact.css";
 
-*{
+* {
   font-family: var(--font);
 }
 
-body{
+body {
   background: var(--color-body);
 }
 
-footer{
+footer {
   background: var(--color-header);
   height: 10%;
   display: flex;
@@ -19,16 +19,21 @@ footer{
   border-radius: 20px;
 }
 
-span{
+span {
   margin: 1%;
   color: var(--color-font);
   font-size: 250%;
   text-align: center;
 }
 
-.tit{
+.tit {
   margin: 1%;
   color: var(--color-font);
   font-size: 300%;
   text-align: center;
+}
+
+p {
+  color: var(--color-font);
+  font-size: 150%;
 }
