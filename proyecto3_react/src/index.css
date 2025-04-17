@@ -25,3 +25,10 @@ span{
   font-size: 250%;
   text-align: center;
 }
+
+.tit{
+  margin: 1%;
+  color: var(--color-font);
+  font-size: 300%;
+  text-align: center;
+}
