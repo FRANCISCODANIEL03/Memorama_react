@@ -82,3 +82,25 @@ header {
 .overlay.active {
   transform: translateY(0);
 }
+
+.btns-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+.btns-menu button {
+  width: 200px;
+  padding: 10px;
+  font-size: 1.1rem;
+  border-radius: 15px 0 15px 0;
+  border: none;
+  transition: all 0.3s;
+}
+
+.btns-menu button:hover {
+  transform: scale(1.05);
+  background: var(--color-btn1);
+  color: black;
+}
