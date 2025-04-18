@@ -196,3 +196,28 @@ header {
     align-items: center;
   }
 }
+
+@media screen and (max-width: 480px) {
+  img {
+    width: 60%;
+  }
+
+  .imgsl {
+    width: 20%;
+  }
+
+  .btn1,
+  .btn2 {
+    font-size: 14px;
+    height: 6vh;
+  }
+
+  h2,
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
