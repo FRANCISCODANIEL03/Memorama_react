@@ -109,3 +109,14 @@ header {
   filter: blur(3px) brightness(0.5);
   pointer-events: none;
 }
+
+/* Responsive: solo mostrar la hamburguesa en pantallas pequeñas */
+@media (max-width: 900px) {
+  .desktop-menu {
+    display: none;
+  }
+
+  .hamburger.mobile-menu {
+    display: block;
+  }
+}
