@@ -104,3 +104,8 @@ header {
   background: var(--color-btn1);
   color: black;
 }
+
+.blurred {
+  filter: blur(3px) brightness(0.5);
+  pointer-events: none;
+}
