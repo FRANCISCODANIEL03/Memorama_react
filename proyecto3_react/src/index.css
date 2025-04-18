@@ -49,3 +49,8 @@ header {
   top: 0;
   z-index: 10;
 }
+
+.btns {
+  display: flex;
+  gap: 10px;
+}
