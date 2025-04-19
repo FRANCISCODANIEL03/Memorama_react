@@ -1,0 +1,12 @@
+:root{
+   --color-body:#3a3852;
+   --color-header:#4a4360;
+   --color-btn1:#fefefc;
+   --color-font:#26f7f7;
+   --font:'Feelin Teachy';
+}
+
+@font-face {
+    font-family:'Feelin Teachy';
+    src: url('/src/fonts/Feelin_Teachy.woff2') format('woff2')
+}
