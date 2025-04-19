@@ -40,6 +40,11 @@ const App = () => {
         </div>
       </div>
 
+      <main className={menuOpen ? "blurred" : ""}>
+        <Home />
+        <Projects />
+      </main>
+      <Contact />
     </>
   );
 };
