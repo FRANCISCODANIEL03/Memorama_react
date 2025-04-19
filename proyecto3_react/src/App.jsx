@@ -32,6 +32,14 @@ const App = () => {
         </div>
       </header>
 
+      <div className={`overlay ${menuOpen ? "active" : ""}`}>
+        <div className="btns-menu">
+          <button onClick={() => scrollToSection("home")}>HOME</button>
+          <button onClick={() => scrollToSection("projects")}>PROJECTS</button>
+          <button onClick={() => scrollToSection("contact")}>CONTACT</button>
+        </div>
+      </div>
+
     </>
   );
 };
