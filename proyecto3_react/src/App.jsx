@@ -11,6 +11,29 @@ const App = () => {
     setMenuOpen(false);
   };
 
+  return (
+    <>
+      <header>
+        <span>MI PORTAFOLIO</span>
+        <div className="btns desktop-menu">
+          <button className="btn1" onClick={() => scrollToSection("home")}>
+            HOME
+          </button>
+          <button className="btn2" onClick={() => scrollToSection("projects")}>
+            PROJECTS
+          </button>
+          <button className="btn2" onClick={() => scrollToSection("contact")}>
+            CONTACT
+          </button>
+        </div>
+
+        <div className="hamburger mobile-menu" onClick={() => setMenuOpen(!menuOpen)}>
+          <i className="bi bi-list"></i>
+        </div>
+      </header>
+
+    </>
+  );
 };
 
 export default App;
