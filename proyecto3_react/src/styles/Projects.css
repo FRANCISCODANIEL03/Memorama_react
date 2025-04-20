@@ -45,3 +45,9 @@
 .proy:hover .project-description {
     max-height: 100%;
 }
+
+.imgsl {
+    width: 8%;
+    height: 8%;
+    border-radius: 0;
+}
