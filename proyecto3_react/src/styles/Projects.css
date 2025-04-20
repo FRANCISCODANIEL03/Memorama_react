@@ -41,3 +41,7 @@
     overflow: hidden;
     transition: max-height .5s ease-in-out;
 }
+
+.proy:hover .project-description {
+    max-height: 100%;
+}
