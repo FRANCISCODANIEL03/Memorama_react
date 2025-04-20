@@ -4,3 +4,8 @@
     align-items: center;
     margin-bottom: 20vh;
 }
+
+.title{
+    display: flex;
+    align-items: center;
+}
