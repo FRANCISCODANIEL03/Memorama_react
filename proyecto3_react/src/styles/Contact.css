@@ -13,3 +13,7 @@
 .info {
     display:flex;
 }
+
+p{
+    margin-right: 1rem;
+}
