@@ -17,3 +17,11 @@
 p{
     margin-right: 1rem;
 }
+
+.social-links a {
+    display: inline-block;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
