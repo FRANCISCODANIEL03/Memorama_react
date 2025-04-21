@@ -4,17 +4,18 @@
     padding: 20px;
     text-align: center;
 }
+
 .contact-info {
-    display:flex;
-    flex-direction:column;
-     align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .info {
-    display:flex;
+    display: flex;
 }
 
-p{
+p {
     margin-right: 1rem;
 }
 
@@ -25,6 +26,7 @@ p{
     text-decoration: none;
     transition: color 0.3s;
 }
+
 .social-links a:hover {
     color: #007BFF;
 }
