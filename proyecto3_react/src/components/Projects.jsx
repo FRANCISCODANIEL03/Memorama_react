@@ -18,6 +18,20 @@ const Projects = () => {
                             </p>
                         </div>
                     </div>
+                    <div className="proy">
+                        <div className="title">
+                        <img className="imgsl" src="/imgs/nodejs.webp" alt="P2"/>
+                        <img className="imgsl" src="/imgs/postgresql.webp" alt="P2"/>
+                        <h2>Node.js PostgreSQL</h2>
+                        </div>
+                        <div className="project-description">
+                            <h3>API creada con Nodejs utlizando una base de datos PostgreSQL</h3>
+                            <p>Esta API esta creada con Nodejs y utliza una base de datos 
+                                PostgreSQL para almacenar los datos.
+                                Esta diseñada para insertar, modificar, extraer y eliminar tareas.
+                            </p>
+                        </div>
+                    </div>
             </div>
            
         </section>
