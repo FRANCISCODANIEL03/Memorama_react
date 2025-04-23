@@ -32,6 +32,24 @@ const Projects = () => {
                             </p>
                         </div>
                     </div>
+                    <div className="proy">
+                        <div className="title">
+                        <img className="imgsl" src="/imgs/all.webp" alt="P2"/>
+                        <img className="imgsl" src="/imgs/nest.webp" alt="P2"/>
+                        <h2>HTML Javascript CSS Nest</h2>
+                        </div>
+                        <div className="project-description">
+                            <h3>Punto de venta con API en Nest y front utlizando CSS y Javascript</h3>
+                            <p>Este proyecto esta diseñado para poder administrar un punto de venta que
+                                incluye varias tiendas y productos. Cuenta con registro de usuarios, 
+                                un seguimiento de todas las ventas realizadas y una 
+                                pagina especial para el administrador, el cual tiene control total sobre los productos,
+                                tiendas, usuarios y compras.
+                            </p>
+                        </div>
+                    </div>
+                    
+                
             </div>
            
         </section>
