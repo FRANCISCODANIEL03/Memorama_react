@@ -48,6 +48,20 @@ const Projects = () => {
                             </p>
                         </div>
                     </div>
+                    <div className="proy">
+                        <div className="title">
+                        <img className="imgsl" src="/imgs/java.webp" alt="P2"/>
+                        <h2>Java</h2>
+                        </div>
+                        <div className="project-description">
+                            <h3>Analizador Lexico y Sintatico en español basado en el lenguaje Java</h3>
+                            <p>En este proyecto se uliza la libreria de JFlex y JCup para realizar 
+                                un analizador lexico y sintatico, el cual esta basado en el lenguaje
+                                de programacion Java, este analizador reconoce palabras y estructuras en 
+                                español, se tiene pensado implementar el analizador semantico.
+                            </p>
+                        </div>
+                    </div>
                     
                 
             </div>
