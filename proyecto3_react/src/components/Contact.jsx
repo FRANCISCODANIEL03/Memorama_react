@@ -15,7 +15,8 @@ const Contact = () => {
                     target="_blank"><i class="bi bi-github"></i> GitHub</a>
                     <a href="https://www.facebook.com/share/1AEu33Z5x9/" 
                     target="_blank"><i className="bi bi-facebook"></i> Facebook</a>
-                    
+                    <a href="https://www.instagram.com/fran031147?utm_source=qr&igsh=a253bWQzajZvcm5n" 
+                    target="_blank"><i className="bi bi-instagram"></i> Instagram</a>
                 </div>
             </div>
         </footer>
