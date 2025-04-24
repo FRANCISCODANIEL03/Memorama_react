@@ -13,6 +13,8 @@ const Contact = () => {
                     target="_blank"><i className="bi bi-linkedin"></i> linkedIn</a>
                     <a href="https://github.com/FRANCISCODANIEL03" 
                     target="_blank"><i class="bi bi-github"></i> GitHub</a>
+                    <a href="https://www.facebook.com/share/1AEu33Z5x9/" 
+                    target="_blank"><i className="bi bi-facebook"></i> Facebook</a>
                     
                 </div>
             </div>
