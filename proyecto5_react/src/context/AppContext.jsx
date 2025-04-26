@@ -7,13 +7,13 @@ const Users = [
     { id: 2, name: "Jordi" },
     { id: 3, name: "Max" },
 ]
-  
+
 const allTasks = {
     1: ["Comprar leche"],
     2: ["Pasear el perro", "Estudiar React", "Tomar cursos"]
 }
 
-export const AppProvider = ({ children })=>{
+export const AppProvider = ({ children }) => {
     const [currentUserId, setCurrentUserId] = useState(1)
     const currentUser = Users.find(user => user.id === currentUserId)
     const tasks = allTasks[currentUserId] || []
@@ -28,10 +28,10 @@ export const AppProvider = ({ children })=>{
 
     return (
         <AppContext.Provider
-            value={datosCompartidos}        
+            value={datosCompartidos}
         >
             {
-                children 
+                children
             }
         </AppContext.Provider>
 
