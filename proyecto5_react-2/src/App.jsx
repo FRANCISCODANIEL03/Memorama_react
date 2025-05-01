@@ -21,6 +21,22 @@ function App() {
   const currentUser = Users.find(user => user.id === currentUserId)
   const tasks = allTasks[currentUserId] || []
 
+  return (
+    <div className="flex flex-col items-center">
+       <Header
+        user={currentUser}
+       />
+       <Selector
+        listUsers = {Users}
+        setCurrentUserId = {setCurrentUserId}
+       />
+
+       {
+        tasks.length > 0 ? <TaskList tasks = {tasks}/> : <span className="text-2xl text-red-500 font-bold ">Sin tareas</span>
+       }
+       
+    </div>
+  );
 }
 
 export default App;
