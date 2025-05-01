@@ -14,3 +14,13 @@ const allTasks = {
   2: ["Pasear el perro", "Estudiar React", "Tomar cursos"]
 }
 
+
+
+function App() {
+  const [currentUserId, setCurrentUserId] = useState(1)
+  const currentUser = Users.find(user => user.id === currentUserId)
+  const tasks = allTasks[currentUserId] || []
+
+}
+
+export default App;
