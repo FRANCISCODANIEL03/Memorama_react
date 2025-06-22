@@ -13,5 +13,10 @@ export const imgs = [
         id: 3,
         img: "/imgs/correo.png",
         alt: "Correo"
+    },
+    {
+        id: 4,
+        img: "/imgs/foco.png",
+        alt: "Foco"
     }
 ]
