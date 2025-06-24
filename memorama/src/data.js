@@ -38,5 +38,10 @@ export const imgs = [
         id: 8,
         img: "/imgs/nota-2.png",
         alt: "Nota 2"
+    },
+    {
+        id: 9,
+        img: "/imgs/pieza-1.png",
+        alt: "Pieza 1"
     }
 ]
