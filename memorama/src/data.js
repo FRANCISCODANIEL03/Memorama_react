@@ -53,5 +53,10 @@ export const imgs = [
         id: 11,
         img: "/imgs/trebol-3.png",
         alt: "Trebol 3"
+    },
+    {
+        id: 12,
+        img: "/imgs/trebol-4.png",
+        alt: "Trebol 4"
     }
 ]
