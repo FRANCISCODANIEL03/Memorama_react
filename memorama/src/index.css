@@ -5,3 +5,8 @@
   src: url('/src/fonts/Feelin_Teachy.woff2') format('woff2')
 }
 
+*{
+  font-family: 'Feelin Teachy';
+  letter-spacing: 1px;
+}
+
