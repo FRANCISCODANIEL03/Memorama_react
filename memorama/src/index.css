@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family:'Feelin Teachy';
+  src: url('/src/fonts/Feelin_Teachy.woff2') format('woff2')
+}
+
