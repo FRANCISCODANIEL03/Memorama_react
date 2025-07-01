@@ -10,3 +10,6 @@ const shuffleArray = (array) => {
     }
     return array;
 }
+
+export const Board = () => {
+}
