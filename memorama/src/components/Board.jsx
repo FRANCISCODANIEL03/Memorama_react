@@ -21,6 +21,14 @@ export const Board = () => {
     const [scores, setScores] = useState({ 1: 0, 2: 0 });
 
     const createBoard = () => {
+        const duplicatedCards = imgs.flatMap((img, i) => {
+            const duplicate = {
+                ...img,
+                id: img.id + imgs.length
+            }
+            return [img, duplicate]
+        });
+
     }
 
 }
