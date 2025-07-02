@@ -20,4 +20,7 @@ export const Board = () => {
     const [currentPlayer, setCurrentPlayer] = useState(1);
     const [scores, setScores] = useState({ 1: 0, 2: 0 });
 
+    const createBoard = () => {
+    }
+
 }
