@@ -12,4 +12,12 @@ const shuffleArray = (array) => {
 }
 
 export const Board = () => {
+    const [cards, setCards] = useState([]);
+    const [flippedCards, setFlippedCards] = useState([]);
+    const [isDisabled, setIsDisabled] = useState(false);
+    const [gameOver, setGameOver] = useState(false);
+
+    const [currentPlayer, setCurrentPlayer] = useState(1);
+    const [scores, setScores] = useState({ 1: 0, 2: 0 });
+
 }
