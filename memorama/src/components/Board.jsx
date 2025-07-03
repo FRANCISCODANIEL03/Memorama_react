@@ -29,6 +29,12 @@ export const Board = () => {
             return [img, duplicate]
         });
 
+        const newCards = shuffleArray(duplicatedCards).map(card => ({
+            ...card,
+            flipped: false,
+            matched: false,
+        }));
+
     }
 
 }
