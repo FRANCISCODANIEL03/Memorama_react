@@ -35,6 +35,7 @@ export const Board = () => {
             matched: false,
         }));
 
+        setCards(newCards);
     }
 
 }
