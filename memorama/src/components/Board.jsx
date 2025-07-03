@@ -38,4 +38,8 @@ export const Board = () => {
         setCards(newCards);
     }
 
+    useEffect(() => {
+        createBoard();
+    }, []);
+
 }
