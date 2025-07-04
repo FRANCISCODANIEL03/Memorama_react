@@ -42,4 +42,7 @@ export const Board = () => {
         createBoard();
     }, []);
 
+    const handleCardClick = (id) => {
+    }
+
 }
