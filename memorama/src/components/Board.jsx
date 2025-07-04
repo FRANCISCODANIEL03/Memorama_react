@@ -43,6 +43,8 @@ export const Board = () => {
     }, []);
 
     const handleCardClick = (id) => {
+        if (isDisabled) return;
+
     }
 
 }
