@@ -45,6 +45,10 @@ export const Board = () => {
     const handleCardClick = (id) => {
         if (isDisabled) return;
 
+        const newCards = [...cards];
+        const currentCard = newCards.find(card => card.id === id);
+        if (currentCard.flipped || currentCard.matched) return;
+
     }
 
 }
