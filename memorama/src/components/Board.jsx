@@ -58,6 +58,16 @@ export const Board = () => {
             setIsDisabled(true);
             const [first, second] = newFlippedCards;
 
+            if (first.img === second.img) {
+                first.matched = true;
+                second.matched = true;
+                setScores(prev => ({ ...prev, [currentPlayer]: prev[currentPlayer] + 1 }));
+                setTimeout(() => {
+                    setFlippedCards([]);
+                    setIsDisabled(false);
+                    checkGameOver(newCards);
+                }, 800);
+            } 
         }
     }
 
