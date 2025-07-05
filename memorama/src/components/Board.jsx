@@ -54,6 +54,11 @@ export const Board = () => {
         setFlippedCards(newFlippedCards);
         setCards(newCards);
 
+        if (newFlippedCards.length === 2) {
+            setIsDisabled(true);
+            const [first, second] = newFlippedCards;
+
+        }
     }
 
 }
