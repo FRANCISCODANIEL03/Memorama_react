@@ -49,6 +49,11 @@ export const Board = () => {
         const currentCard = newCards.find(card => card.id === id);
         if (currentCard.flipped || currentCard.matched) return;
 
+        currentCard.flipped = true;
+        const newFlippedCards = [...flippedCards, currentCard];
+        setFlippedCards(newFlippedCards);
+        setCards(newCards);
+
     }
 
 }
