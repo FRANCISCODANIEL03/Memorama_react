@@ -80,4 +80,11 @@ export const Board = () => {
         }
     }
 
+    const checkGameOver = (cardsToCheck) => {
+        if (cardsToCheck.every(card => card.matched)) {
+            setGameOver(true);
+            setIsDisabled(true);
+        }
+    }
+
 }
