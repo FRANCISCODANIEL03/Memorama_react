@@ -67,7 +67,16 @@ export const Board = () => {
                     setIsDisabled(false);
                     checkGameOver(newCards);
                 }, 800);
-            } 
+            } else {
+                setTimeout(() => {
+                    first.flipped = false;
+                    second.flipped = false;
+                    setCards([...newCards]);
+                    setFlippedCards([]);
+                    setIsDisabled(false);
+                    setCurrentPlayer(currentPlayer === 1 ? 2 : 1);
+                }, 1000);
+            }
         }
     }
 
