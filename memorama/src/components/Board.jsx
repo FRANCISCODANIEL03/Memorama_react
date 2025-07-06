@@ -87,4 +87,13 @@ export const Board = () => {
         }
     }
 
+    const handlenewGame = () => {
+        createBoard();
+        setGameOver(false);
+        setFlippedCards([]);
+        setIsDisabled(false);
+        setCurrentPlayer(1);
+        setScores({ 1: 0, 2: 0 });
+    }
+
 }
