@@ -96,4 +96,9 @@ export const Board = () => {
         setScores({ 1: 0, 2: 0 });
     }
 
+    return (
+        <>
+            {gameOver && <div className="fixed inset-0 bg-black opacity-50 z-10"></div>}
+        </>
+    );
 }
