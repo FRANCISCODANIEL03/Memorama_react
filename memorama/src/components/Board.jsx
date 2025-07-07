@@ -99,6 +99,10 @@ export const Board = () => {
     return (
         <>
             {gameOver && <div className="fixed inset-0 bg-black opacity-50 z-10"></div>}
+            <div className="relative h-screen flex flex-col items-center justify-center">
+                <h1 className="font-bold text-4xl my-5 text-center text-transparent bg-clip-text bg-gradient-to-r from-green-400
+                 to-blue-500 hover:from-pink-500 hover:to-yellow-500 transition duration-500 ease-in-out transform hover:-translate-y-1 
+                 hover:scale-110 md:text-5xl">Memorama - 2 Jugadores</h1>
         </>
     );
 }
