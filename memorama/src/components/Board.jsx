@@ -103,6 +103,24 @@ export const Board = () => {
                 <h1 className="font-bold text-4xl my-5 text-center text-transparent bg-clip-text bg-gradient-to-r from-green-400
                  to-blue-500 hover:from-pink-500 hover:to-yellow-500 transition duration-500 ease-in-out transform hover:-translate-y-1 
                  hover:scale-110 md:text-5xl">Memorama - 2 Jugadores</h1>
+                <div className="flex justify-center items-center gap-10 my-3">
+                    <div className={`font-bold text-xl ${currentPlayer === 1 ? 'text-yellow-400' : 'text-black'}`}>
+                        <h2 className="text-center">TURNO</h2> <br /> Jugador 1: {scores[1]} puntos</div>
+                    <div className={`font-bold text-xl ${currentPlayer === 2 ? 'text-yellow-400' : 'text-black'}`}>
+                        <h2 className="text-center">TURNO</h2> <br /> Jugador 2: {scores[2]} puntos</div>
+                </div>
+                <div className="grid grid-cols-6 gap-3 px-3 py-5">
+                    {cards.map(card => (
+                        <Cards
+                            key={card.id}
+                            card={card}
+                            handleCardClick={handleCardClick}
+                        />
+                    ))}
+                </div>
+                <button className="bg-black font-semibold text-white rounded-md px-5 py-1 hover:bg-yellow-500 hover:text-black 
+                transition-all mb-3" onClick={handlenewGame}>Nuevo juego</button>
+            </div>
         </>
     );
 }
