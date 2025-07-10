@@ -11,6 +11,8 @@ export const Modal = ({ gameOver, setGameOver, handlenewGame, scores }) => {
             <button className="text-black font-bold absolute right-0 top-0 mr-3 hover:text-yellow-300 text-2xl" 
             onClick={() => setGameOver(false)}>&times;</button>
 
+            <h1 className="text-black uppercase text-5xl font-bold tracking-wider">{winnerText()}</h1>
+
         </div>
     );
 }
