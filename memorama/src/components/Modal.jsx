@@ -18,7 +18,8 @@ export const Modal = ({ gameOver, setGameOver, handlenewGame, scores }) => {
                 <p className="text-black font-bold">Jugador 2 : {scores[2]} puntos</p>
             </div>
 
-           
+            <button className="bg-yellow-500 font-semibold text-black rounded-md px-5 py-1 hover:opacity-90 transition-all mb-3"
+             onClick={handlenewGame}>Nuevo juego</button>
         </div>
     );
 }
