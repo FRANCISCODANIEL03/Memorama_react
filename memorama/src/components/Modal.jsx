@@ -13,6 +13,12 @@ export const Modal = ({ gameOver, setGameOver, handlenewGame, scores }) => {
 
             <h1 className="text-black uppercase text-5xl font-bold tracking-wider">{winnerText()}</h1>
 
+            <div className="flex flex-col gap-2">
+                <p className="text-black font-bold">Jugador 1 : {scores[1]} puntos</p>
+                <p className="text-black font-bold">Jugador 2 : {scores[2]} puntos</p>
+            </div>
+
+           
         </div>
     );
 }
