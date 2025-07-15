@@ -7,6 +7,14 @@ import { VideoContext } from './context/VideoContext';
 import useLocalStorage from './Hooks/useLocalstorage';
 
 function App() {
+
+  const [videos, setVideos] = useLocalStorage('videos', []);
+
+  const [categories, setCategories] = useLocalStorage('categories', ['Programacion', 'Diseño', 'Musica'])
+
+  const [filter, setFilter] = useState('Todas');
+  const [searchText, setSearchText] = useState('');
+
 }
 
 export default App;
