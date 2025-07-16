@@ -26,6 +26,16 @@ function App() {
     }
   };
 
+  const confirmDelete = (index) => {
+    toast(t => (
+      <span className="flex flex-col gap-2">
+        <p>¿Estás seguro de que deseas eliminar este link?</p>
+        <div className="flex justify-end gap-2">
+        </div>
+      </span>
+    ), { duration: 5000 });
+  };
+
 }
 
 export default App;
