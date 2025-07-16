@@ -15,6 +15,10 @@ function App() {
   const [filter, setFilter] = useState('Todas');
   const [searchText, setSearchText] = useState('');
 
+  const addVideo = (video) => {
+    setVideos(prev => [...prev, video]);
+  };
+
 }
 
 export default App;
