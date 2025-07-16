@@ -19,6 +19,13 @@ function App() {
     setVideos(prev => [...prev, video]);
   };
 
+  const addCategory = (newCat) => {
+    const cleanCat = newCat.trim();
+    if (cleanCat && !categories.includes(cleanCat)) {
+      setCategories(prev => [...prev, cleanCat]);
+    }
+  };
+
 }
 
 export default App;
