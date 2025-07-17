@@ -52,6 +52,12 @@ function App() {
     ), { duration: 5000 });
   };
 
+  const filteredVideos = videos.filter(video => {
+    const matchesCategory = filter === 'Todas' || video.category === filter;
+    const matchesSearch = video.title.toLowerCase().includes(searchText.toLowerCase());
+    return matchesCategory && matchesSearch;
+  });
+
 }
 
 export default App;
