@@ -66,6 +66,13 @@ function App() {
       searchText, setSearchText,
       filteredVideos
     }}>
+      <div className='p-4'>
+        <Toaster position="top-right" />
+        <h1 className='text-center text-4xl font-bold'>Guarda el link de un video</h1>
+        <Form />
+        <CategoryFilter />
+        <VideoList />
+      </div>
     </VideoContext.Provider>
   );
 }
