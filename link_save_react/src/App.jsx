@@ -58,6 +58,16 @@ function App() {
     return matchesCategory && matchesSearch;
   });
 
+  return (
+    <VideoContext.Provider value={{
+      videos, addVideo, confirmDelete,
+      categories, addCategory,
+      filter, setFilter,
+      searchText, setSearchText,
+      filteredVideos
+    }}>
+    </VideoContext.Provider>
+  );
 }
 
 export default App;
