@@ -14,6 +14,15 @@ export function CategoryFilter() {
           ))}
         </select>
       </div>
+      <div>
+        <input
+          type="text"
+          placeholder="Buscar por título..."
+          value={searchText}
+          onChange={(e) => setSearchText(e.target.value)}
+          className='border-b-2 border-indigo-500 p-1 outline-none text-center'
+        />
+      </div>
     </div>
   );
 }
