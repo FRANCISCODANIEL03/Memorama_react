@@ -17,4 +17,13 @@ export function Form() {
     const [newCategory, setNewCategory] = useState('');
     const [loadingTitle, setLoadingTitle] = useState(false);
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        if (!url.trim() || !title.trim() || !category.trim()) {
+            toast.error('Todos los campos son obligatorios');
+            return;
+        }
+    };
+
 }
