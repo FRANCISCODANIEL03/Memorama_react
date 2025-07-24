@@ -10,4 +10,11 @@ export function Form() {
         categories
     } = useVideoContext();
 
+    const [url, setUrl] = useState('');
+    const [title, setTitle] = useState('');
+    const [category, setCategory] = useState('');
+    const [showNewCategoryInput, setShowNewCategoryInput] = useState(false);
+    const [newCategory, setNewCategory] = useState('');
+    const [loadingTitle, setLoadingTitle] = useState(false);
+
 }
