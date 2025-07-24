@@ -4,4 +4,10 @@ import toast from 'react-hot-toast';
 import { useVideoContext } from '../context/VideoContext';
 
 export function Form() {
+    const {
+        addVideo,
+        addCategory,
+        categories
+    } = useVideoContext();
+
 }
