@@ -24,6 +24,12 @@ export function Form() {
             toast.error('Todos los campos son obligatorios');
             return;
         }
+
+        addVideo({ url, title, category });
+        toast.success('Video guardado exitosamente');
+        setUrl('');
+        setTitle('');
+        setCategory('');
     };
 
 }
