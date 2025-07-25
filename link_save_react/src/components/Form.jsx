@@ -32,4 +32,12 @@ export function Form() {
         setCategory('');
     };
 
+    const fetchTitleFromURL = async (videoURL) => {
+        if (!videoURL.trim()) return;
+
+        setLoadingTitle(true);
+
+    };
+
+
 }
