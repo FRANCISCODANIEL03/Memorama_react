@@ -43,6 +43,12 @@ export function Form() {
 
         let endpoint = '/fetch-title'; // endpoint por defecto
 
+        if (hostname.includes('youtube.com') || hostname.includes('youtu.be')) {
+            endpoint = '/youtube-title';
+        } else if (hostname.includes('tiktok.com')) {
+            endpoint = '/tiktok-title';
+        }
+
     };
 
 
