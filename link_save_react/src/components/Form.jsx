@@ -57,7 +57,12 @@ export function Form() {
 
             setTitle(extractedTitle);
             toast.success('Título extraído con éxito');
-        } 
+        } catch (error) {
+            toast.error('No se pudo obtener el título');
+            console.error(error);
+        }
+
+        setLoadingTitle(false);
     };
 
 
