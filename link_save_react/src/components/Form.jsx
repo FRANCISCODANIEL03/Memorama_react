@@ -49,6 +49,15 @@ export function Form() {
             endpoint = '/tiktok-title';
         }
 
+        try {
+            const response = await axios.get(`https://extract-title.onrender.com${endpoint}?url=${encodeURIComponent(videoURL)}`);
+            console.log(response);
+            
+            const extractedTitle = response.data.title || 'Sin título';
+
+            setTitle(extractedTitle);
+            toast.success('Título extraído con éxito');
+        } 
     };
 
 
