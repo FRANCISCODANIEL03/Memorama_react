@@ -37,6 +37,12 @@ export function Form() {
 
         setLoadingTitle(true);
 
+        // Detecta el dominio
+        const urlObj = new URL(videoURL);
+        const hostname = urlObj.hostname;
+
+        let endpoint = '/fetch-title'; // endpoint por defecto
+
     };
 
 
