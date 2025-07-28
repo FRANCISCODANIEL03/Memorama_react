@@ -16,4 +16,8 @@ export function VideoList() {
     return <p className='text-center mt-4 text-gray-600'>No hay links para mostrar</p>;
   }
 
+  return (
+    <div className='mx-8 mt-6 space-y-4'>
+    </div>
+  );
 }
