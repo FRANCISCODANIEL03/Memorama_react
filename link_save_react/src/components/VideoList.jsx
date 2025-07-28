@@ -12,4 +12,8 @@ export function VideoList() {
     );
   };
 
+  if (filteredVideos.length === 0) {
+    return <p className='text-center mt-4 text-gray-600'>No hay links para mostrar</p>;
+  }
+
 }
