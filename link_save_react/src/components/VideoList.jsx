@@ -24,6 +24,16 @@ export function VideoList() {
             <p className='text-lg font-bold'>{highlightMatch(video.title)}</p>
             <p className='text-sm text-gray-600'>{video.category}</p>
           </div>
+          <div className='flex items-center gap-2'>
+            <a
+              href={video.url}
+              target='_blank'
+              rel='noopener noreferrer'
+              className='bg-indigo-500 text-white px-3 py-1 rounded hover:bg-indigo-600'
+            >
+              Ver video
+            </a>
+          </div>
         </div>
       ))}
     </div>
