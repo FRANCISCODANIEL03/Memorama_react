@@ -33,6 +33,13 @@ export function VideoList() {
             >
               Ver video
             </a>
+            <button
+              onClick={() => confirmDelete(index)}
+              className='text-red-600 text-xl'
+              title="Eliminar video"
+            >
+              <i className="bi bi-trash3-fill"></i>
+            </button>
           </div>
         </div>
       ))}
