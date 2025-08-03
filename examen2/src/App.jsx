@@ -5,3 +5,8 @@ import { LibroFilter } from './components/LibroFilter';
 import { LibroList } from './components/LibroList';
 import { LibroContext } from './context/LibroContext';
 import useLocalStorage from './Hooks/useLocalstorage';
+
+function App() {
+}
+
+export default App;
