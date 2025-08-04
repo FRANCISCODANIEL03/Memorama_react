@@ -7,6 +7,9 @@ import { LibroContext } from './context/LibroContext';
 import useLocalStorage from './Hooks/useLocalstorage';
 
 function App() {
+
+  const [libros, setlibros] = useLocalStorage('libros', []);
+
 }
 
 export default App;
