@@ -12,6 +12,7 @@ function App() {
 
   const [generos, setGeneros] = useLocalStorage('generos', ['Ciencia', 'Historia', 'Tecnologia'])
 
+  const [filter, setFilter] = useState('Todos');
 }
 
 export default App;
