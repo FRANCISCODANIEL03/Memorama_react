@@ -10,6 +10,8 @@ function App() {
 
   const [libros, setlibros] = useLocalStorage('libros', []);
 
+  const [generos, setGeneros] = useLocalStorage('generos', ['Ciencia', 'Historia', 'Tecnologia'])
+
 }
 
 export default App;
