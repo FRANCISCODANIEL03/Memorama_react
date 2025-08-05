@@ -15,6 +15,10 @@ function App() {
   const [filter, setFilter] = useState('Todos');
   const [searchText, setSearchText] = useState('');
 
+  const addLibro = (libro) => {
+    setlibros(prev => [...prev, libro]);
+  };
+
 }
 
 export default App;
