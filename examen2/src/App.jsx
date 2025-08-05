@@ -19,6 +19,13 @@ function App() {
     setlibros(prev => [...prev, libro]);
   };
 
+  const addGenero = (newGen) => {
+    const cleanGen = newGen.trim();
+    if (cleanGen && !generos.includes(cleanGen)) {
+      setGeneros(prev => [...prev, cleanGen]);
+    }
+  };
+
 }
 
 export default App;
