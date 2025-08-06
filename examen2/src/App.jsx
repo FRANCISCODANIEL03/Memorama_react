@@ -26,6 +26,9 @@ function App() {
     }
   };
 
+  const confirmDelete = (index) => {
+  };
+
 }
 
 export default App;
