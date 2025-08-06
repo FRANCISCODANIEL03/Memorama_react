@@ -27,6 +27,11 @@ function App() {
   };
 
   const confirmDelete = (index) => {
+    toast(t => (
+      <span className="flex flex-col gap-2">
+        <p>¿Estás seguro de que deseas eliminar este libro?</p>
+      </span>
+    ), { duration: 5000 });
   };
 
 }
