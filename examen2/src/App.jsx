@@ -52,6 +52,12 @@ function App() {
     ), { duration: 5000 });
   };
 
+  const filteredLibros = libros.filter(libro => {
+    const matchesCategory = filter === 'Todas' || libro.category === filter;
+    const matchesSearch = libro.title.toLowerCase().includes(searchText.toLowerCase());
+    return matchesCategory && matchesSearch;
+  });
+
 }
 
 export default App;
