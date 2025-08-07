@@ -41,6 +41,12 @@ function App() {
           >
             Eliminar
           </button>
+          <button
+            onClick={() => toast.dismiss(t.id)}
+            className="bg-gray-300 px-2 py-1 rounded text-sm"
+          >
+            Cancelar
+          </button>
         </div>
       </span>
     ), { duration: 5000 });
