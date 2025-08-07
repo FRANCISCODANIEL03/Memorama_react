@@ -31,6 +31,16 @@ function App() {
       <span className="flex flex-col gap-2">
         <p>¿Estás seguro de que deseas eliminar este libro?</p>
         <div className="flex justify-end gap-2">
+          <button
+            onClick={() => {
+              setlibros(libros.filter((_, i) => i !== index));
+              toast.dismiss(t.id);
+              toast.success('Libro eliminado');
+            }}
+            className="bg-red-500 text-white px-2 py-1 rounded text-sm"
+          >
+            Eliminar
+          </button>
         </div>
       </span>
     ), { duration: 5000 });
