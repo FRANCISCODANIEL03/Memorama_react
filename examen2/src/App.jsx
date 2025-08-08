@@ -58,6 +58,16 @@ function App() {
     return matchesCategory && matchesSearch;
   });
 
+  return (
+    <LibroContext.Provider value={{
+      libros, addLibro, confirmDelete,
+      generos, addGenero,
+      filter, setFilter,
+      searchText, setSearchText,
+      filteredLibros
+    }}>
+    </LibroContext.Provider>
+  );
 }
 
 export default App;
