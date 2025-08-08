@@ -67,6 +67,11 @@ function App() {
       filteredLibros
     }}>
       <div className='p-4'>
+        <Toaster position="top-right" />
+        <h1 className='text-center text-4xl font-bold'>Guarda un libro</h1>
+        <Form />
+        <LibroFilter />
+        <LibroList />
       </div>
     </LibroContext.Provider>
   );
