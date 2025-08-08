@@ -66,6 +66,8 @@ function App() {
       searchText, setSearchText,
       filteredLibros
     }}>
+      <div className='p-4'>
+      </div>
     </LibroContext.Provider>
   );
 }
