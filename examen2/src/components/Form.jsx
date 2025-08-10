@@ -3,4 +3,10 @@ import toast from 'react-hot-toast';
 import { useLibroContext } from '../context/LibroContext';
 
 export function Form() {
+    const {
+        addLibro,
+        addGenero,
+        generos
+    } = useLibroContext();
+
 }
