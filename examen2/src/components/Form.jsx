@@ -9,4 +9,5 @@ export function Form() {
         generos
     } = useLibroContext();
 
+    const [titulo, setTitulo] = useState('');
 }
