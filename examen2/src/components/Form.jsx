@@ -10,4 +10,5 @@ export function Form() {
     } = useLibroContext();
 
     const [titulo, setTitulo] = useState('');
+    const [autor, setTitle] = useState('');
 }
