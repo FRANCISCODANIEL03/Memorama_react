@@ -11,4 +11,5 @@ export function Form() {
 
     const [titulo, setTitulo] = useState('');
     const [autor, setTitle] = useState('');
+    const [genero, setGenero] = useState('');
 }
