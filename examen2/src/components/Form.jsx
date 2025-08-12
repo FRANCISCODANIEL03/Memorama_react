@@ -14,4 +14,6 @@ export function Form() {
     const [genero, setGenero] = useState('');
     const [año, setAño] = useState('');
     const [showNewGeneroInput, setShowNewGeneroInput] = useState(false);
+    const [newGenero, setNewGenero] = useState('');
+
 }
