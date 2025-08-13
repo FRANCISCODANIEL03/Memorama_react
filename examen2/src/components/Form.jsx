@@ -16,4 +16,7 @@ export function Form() {
     const [showNewGeneroInput, setShowNewGeneroInput] = useState(false);
     const [newGenero, setNewGenero] = useState('');
 
+    const handleSubmit = (e) => {
+    };
+
 }
