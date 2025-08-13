@@ -19,6 +19,11 @@ export function Form() {
     const handleSubmit = (e) => {
         e.preventDefault();
 
+        if (!titulo.trim() || !autor.trim() || !genero.trim() || !año.trim()) {
+            toast.error('Todos los campos son obligatorios');
+            return;
+        }
+
     };
 
 }
