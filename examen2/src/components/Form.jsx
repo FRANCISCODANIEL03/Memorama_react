@@ -17,6 +17,8 @@ export function Form() {
     const [newGenero, setNewGenero] = useState('');
 
     const handleSubmit = (e) => {
+        e.preventDefault();
+
     };
 
 }
