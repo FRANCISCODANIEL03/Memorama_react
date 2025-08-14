@@ -32,4 +32,9 @@ export function Form() {
         setAño('');
     };
 
+    return (
+        <form onSubmit={handleSubmit} className='flex flex-col gap-2 bg-indigo-100 m-8 p-4 rounded-lg text-xl font-semibold text-center'>
+            
+        </form>
+    );
 }
