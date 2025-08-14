@@ -24,6 +24,12 @@ export function Form() {
             return;
         }
 
+        addLibro({ titulo, autor, genero, año });
+        toast.success('Libro guardado exitosamente');
+        setTitulo('');
+        setTitle('');
+        setGenero('');
+        setAño('');
     };
 
 }
