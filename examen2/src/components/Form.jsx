@@ -34,7 +34,7 @@ export function Form() {
 
     return (
         <form onSubmit={handleSubmit} className='flex flex-col gap-2 bg-indigo-100 m-8 p-4 rounded-lg text-xl font-semibold text-center'>
-            
+            <label className='text-2xl'>Ingresa el titulo del video</label>
         </form>
     );
 }
