@@ -41,6 +41,7 @@ export function Form() {
                 placeholder="El principito"
                 // value={titulo}
             />
-        </form>
+            <label>Autor</label>
+            </form>
     );
 }
