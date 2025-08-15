@@ -35,6 +35,12 @@ export function Form() {
     return (
         <form onSubmit={handleSubmit} className='flex flex-col gap-2 bg-indigo-100 m-8 p-4 rounded-lg text-xl font-semibold text-center'>
             <label className='text-2xl'>Ingresa el titulo del video</label>
+            <input
+                className='text-center border-b-4 border-indigo-500 outline-none'
+                type="text"
+                placeholder="El principito"
+                // value={titulo}
+            />
         </form>
     );
 }
