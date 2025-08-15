@@ -42,6 +42,14 @@ export function Form() {
                 // value={titulo}
             />
             <label>Autor</label>
-            </form>
+            <input
+                className='text-center border-b-4 border-indigo-500 outline-none'
+                type="text"
+                placeholder="Autor del libro"
+                // value={autor}
+                // onChange={(e) => setTitle(e.target.value)}
+            />
+
+        </form>
     );
 }
