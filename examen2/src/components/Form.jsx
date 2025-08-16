@@ -58,6 +58,7 @@ export function Form() {
                 // value={año}
             />
 
+            <label>Genero</label>
         </form>
     );
 }
