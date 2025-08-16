@@ -51,6 +51,13 @@ export function Form() {
             />
 
             <label>Año de publicacion</label>
+            <input
+                className='text-center border-b-4 border-indigo-500 outline-none'
+                type="text"
+                placeholder="Año de publicacion"
+                // value={año}
+            />
+
         </form>
     );
 }
