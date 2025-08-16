@@ -50,6 +50,7 @@ export function Form() {
                 // onChange={(e) => setTitle(e.target.value)}
             />
 
+            <label>Año de publicacion</label>
         </form>
     );
 }
