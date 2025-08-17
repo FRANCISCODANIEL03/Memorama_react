@@ -61,7 +61,8 @@ export function Form() {
             <label>Genero</label>
             <div className="flex justify-center items-center gap-2">
                 <select className='border-b-4 border-indigo-500 outline-none text-center' value={genero} onChange={(e) => setGenero(e.target.value)}>
-                    
+                    <option value="">Selecciona un genero</option>
+                    {generos.map((cat, i) => <option key={i} value={cat}>{cat}</option>)}
                 </select>
             </div>
 
