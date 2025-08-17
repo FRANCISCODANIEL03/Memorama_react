@@ -60,6 +60,9 @@ export function Form() {
 
             <label>Genero</label>
             <div className="flex justify-center items-center gap-2">
+                <select className='border-b-4 border-indigo-500 outline-none text-center' value={genero} onChange={(e) => setGenero(e.target.value)}>
+                    
+                </select>
             </div>
 
             
