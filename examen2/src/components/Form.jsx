@@ -65,7 +65,7 @@ export function Form() {
                     {generos.map((cat, i) => <option key={i} value={cat}>{cat}</option>)}
                 </select>
                 <button type="button" onClick={() => setShowNewGeneroInput(true)} className='text-indigo-500 text-2xl' title="Agregar nuevo genero">
-                    
+                    <i className="bi bi-plus-circle"></i>
                 </button>
             </div>
 
