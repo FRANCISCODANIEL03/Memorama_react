@@ -70,6 +70,8 @@ export function Form() {
             </div>
 
             
+            {showNewGeneroInput && ()}
+            
         </form>
     );
 }
