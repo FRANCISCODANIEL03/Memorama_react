@@ -72,6 +72,13 @@ export function Form() {
             
             {showNewGeneroInput && (
                 <div className='flex justify-center items-center gap-2'>
+                    <input
+                        className='border-b-4 border-indigo-500 outline-none text-center'
+                        type="text"
+                        placeholder="Nuevo Genero"
+                        value={newGenero}
+                        onChange={(e) => setNewGenero(e.target.value)}
+                    />
                 </div>
             )}
             
