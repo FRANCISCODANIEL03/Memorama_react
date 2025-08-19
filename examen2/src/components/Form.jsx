@@ -79,6 +79,23 @@ export function Form() {
                         value={newGenero}
                         onChange={(e) => setNewGenero(e.target.value)}
                     />
+                    <button
+                        type="button"
+                        onClick={() => {
+                            if (!newGenero.trim()) {
+                                toast.error('El genero no puede estar vacio');
+                                return;
+                            }
+                            addGenero(newGenero);
+                            setShowNewGeneroInput(false);
+                            setNewGenero('');
+                            toast.success('Genero agregado exitosamente');
+                        }}
+                        className='text-green-600 text-2xl'
+                        title="Confirmar"
+                    >
+                        
+                    </button>
                 </div>
             )}
             
