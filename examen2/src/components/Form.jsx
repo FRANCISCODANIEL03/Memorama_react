@@ -70,7 +70,10 @@ export function Form() {
             </div>
 
             
-            {showNewGeneroInput && ()}
+            {showNewGeneroInput && (
+                <div className='flex justify-center items-center gap-2'>
+                </div>
+            )}
             
         </form>
     );
