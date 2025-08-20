@@ -94,7 +94,7 @@ export function Form() {
                         className='text-green-600 text-2xl'
                         title="Confirmar"
                     >
-                        
+                        <i className="bi bi-plus-circle-fill"></i>
                     </button>
                 </div>
             )}
