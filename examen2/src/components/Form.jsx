@@ -96,6 +96,9 @@ export function Form() {
                     >
                         <i className="bi bi-plus-circle-fill"></i>
                     </button>
+                    <button type="button" onClick={() => setShowNewGeneroInput(false)} className='text-red-600 text-2xl' title="Cancelar">
+                       
+                    </button>
                 </div>
             )}
             
