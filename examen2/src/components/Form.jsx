@@ -101,7 +101,7 @@ export function Form() {
                     </button>
                 </div>
             )}
-            
+            <button className='bg-indigo-500 text-white mt-4 p-1 rounded'>Guardar</button>
         </form>
     );
 }
