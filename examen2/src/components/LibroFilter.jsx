@@ -9,6 +9,9 @@ export function LibroFilter() {
         <label className='mr-2 font-semibold'>Filtro:</label>
         <select onChange={(e) => setFilter(e.target.value)} className='border-b-2 border-indigo-500 p-1'>
           <option value="Todas">Todo</option>
+          {generos.map((cat, i) => (
+            <option key={i} value={cat}>{cat}</option>
+          ))}
         </select>
       </div>
     </div>
