@@ -7,6 +7,8 @@ export function LibroFilter() {
     <div className='flex flex-col md:flex-row justify-between items-center mx-8 mb-4 gap-4'>
       <div>
         <label className='mr-2 font-semibold'>Filtro:</label>
+        <select onChange={(e) => setFilter(e.target.value)} className='border-b-2 border-indigo-500 p-1'>
+        </select>
       </div>
     </div>
   );
