@@ -16,4 +16,6 @@ export function LibroList() {
     return <p className='text-center mt-4 text-gray-600'>No hay libros para mostrar</p>;
   }
 
+  return (
+  );
 }
