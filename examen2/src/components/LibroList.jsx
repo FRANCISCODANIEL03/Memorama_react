@@ -17,5 +17,7 @@ export function LibroList() {
   }
 
   return (
+    <div className='mx-8 mt-6 space-y-4'>
+    </div>
   );
 }
