@@ -21,6 +21,7 @@ export function LibroList() {
       {filteredLibros.map((video, index) => (
         <div key={index} className='bg-white shadow-md rounded-lg p-4 flex justify-between items-center'>
           <div className='text-left'>
+            <p className='text-lg font-bold'>{highlightMatch(video.title)}</p>
           </div>
         </div>
       ))}
