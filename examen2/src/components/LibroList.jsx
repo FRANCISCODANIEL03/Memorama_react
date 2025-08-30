@@ -25,6 +25,12 @@ export function LibroList() {
             <p className='text-sm text-gray-600'>{video.genero}</p>
           </div>
           <div className='flex items-center gap-2'>
+            <button
+            
+              className='bg-indigo-500 text-white px-3 py-1 rounded hover:bg-indigo-600'
+            >
+              Editar
+            </button>
           </div>
         </div>
       ))}
