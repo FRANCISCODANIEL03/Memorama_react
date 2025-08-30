@@ -31,6 +31,13 @@ export function LibroList() {
             >
               Editar
             </button>
+            <button
+              onClick={() => confirmDelete(index)}
+              className='text-red-600 text-xl'
+              title="Eliminar Libro"
+            >
+              
+            </button>
           </div>
         </div>
       ))}
