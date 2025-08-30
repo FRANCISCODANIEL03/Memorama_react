@@ -24,6 +24,8 @@ export function LibroList() {
             <p className='text-lg font-bold'>{highlightMatch(video.title)}</p>
             <p className='text-sm text-gray-600'>{video.genero}</p>
           </div>
+          <div className='flex items-center gap-2'>
+          </div>
         </div>
       ))}
     </div>
