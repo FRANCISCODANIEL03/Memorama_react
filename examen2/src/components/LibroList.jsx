@@ -36,7 +36,7 @@ export function LibroList() {
               className='text-red-600 text-xl'
               title="Eliminar Libro"
             >
-              
+              <i className="bi bi-trash3-fill"></i>
             </button>
           </div>
         </div>
